@@ -170,6 +170,7 @@ const AppStateProvider = ({ children }) => {
     setOrders([]);
   }, []);
 
+
   return (
     <AppStateContext.Provider
       value={{ prototypes, orders, addToOrder, remove, removeAll }}
